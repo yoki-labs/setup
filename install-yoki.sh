@@ -1,6 +1,6 @@
 #!/bin/sh
 mkdir yoki
-cd /yoki
+cd yoki
 printf "\nSetting up docker!\n"
 if [ -x "$(command -v docker)" ]; then
     echo -e "Docker already installed. Skipping..."
