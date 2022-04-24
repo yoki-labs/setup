@@ -1,9 +1,6 @@
 #!/bin/sh
 cd /yoki
 printf "\nSetting up docker!\n"
-sudo adduser nico
-usermod -aG sudo nico
-su - nico
 if [ -x "$(command -v docker)" ]; then
     echo -e "Docker already installed. Skipping..."
 else
